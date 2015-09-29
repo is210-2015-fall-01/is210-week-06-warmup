@@ -6,5 +6,5 @@ ELEMENTS = tuple([None, 'Hydrogen', 'Helium', 'Lithium', 'Beryllium', 'Boron',
                   'Carbon'])
 
 
-OPERATIONS_ORDER = ['Parentheses', 'EXPONENTS', 'MULTIPLICATION', 'DIVISION',
+OPERATIONS_ORDER = ['Parentheses', 'Exponents', 'Multiplication', 'Division',
                     'Addition', 'Subtraction']
