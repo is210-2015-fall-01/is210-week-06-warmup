@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 """Defining a list and a tuple"""
 
-ELEMENTS = [None, 'Hydrogen', 'Helium', 'Lithium', 'Beryllium', 'Boron',
-            'Carbon']
+ELEMENTS = (None, 'Hydrogen', 'Helium', 'Lithium', 'Beryllium', 'Boron',
+            'Carbon')
 
 OPERATIONS_ORDER = ['Parentheses',
                     'Exponents',

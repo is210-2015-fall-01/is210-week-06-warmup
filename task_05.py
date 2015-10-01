@@ -4,17 +4,15 @@
 
 
 def flip_keys(to_flip):
-    """A reversed list
+    """Making my list flip
 
-    Args:
-        to flip a list of numbers or letters.
-
-         Returns:
-              The function should return the original list.
+     Args:
+        to_flip this list
+      Returns:
+        The function should return the original list
     """
     counter = 0
-    for values in to_flip:
-        to_flip[counter] = values[::-1]
+    for item in to_flip:
+        to_flip[counter] = item[::-1]
         counter += 1
-
-        return to_flip
+    return to_flip

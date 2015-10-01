@@ -2,8 +2,6 @@
 # -*- coding: utf-8 -*-
 """Task 04"""
 
-TOTAL_SUM = ['03', '19', '86']
-
 
 def process_data(data):
     """The total sum of the data
@@ -13,7 +11,13 @@ def process_data(data):
 
          Returns:
              The average of the data with floating point precision
+
     """
-    mytotalsum = (data)
-    myavg = mytotalsum/float(len(data))
-    return (mytotalsum, myavg)
+    total = 0
+    for i in data:
+        total = total+i
+        
+
+        average = total/float(len(data))
+
+    return total, average
