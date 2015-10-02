@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""This file is for."""
+"""This module demonstrates list functions"""
 
 import data
 
