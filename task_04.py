@@ -3,7 +3,7 @@
 """Looping a list"""
 
 
-def process_data2(data):
+def process_data(data):
     """This function will take any list of numbers, sum and average them.
 
     Args:
@@ -24,4 +24,4 @@ def process_data2(data):
     average = float(total_sum)/count
     return (total_sum, average)
 
-print process_data2([1, 2, 3, 4, 7, 4])
+print process_data([1, 2, 3, 4, 7, 4])

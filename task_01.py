@@ -11,7 +11,7 @@ ELEMENTS = (None,
             'Boron',
             'Carbon')
 
-OPERATIONS_ORDER = ['Parenthesis',
+OPERATIONS_ORDER = ['Parentheses',
                     'Exponents',
                     'Multiplication',
                     'Division',
