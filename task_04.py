@@ -2,8 +2,6 @@
 # -*- coding: utf-8 -*-
 """Using for loop"""
 
-import data
-
 
 def process_data(data):
     """ returns as a tuple the sum and mean of list or tuple elements
@@ -22,15 +20,11 @@ def process_data(data):
     """
     tup_sum = sum(data)
 
-    for x in ([data]):
-        tupval = tup_sum, float(tup_sum/len(data))
+    for _ in [data]:
+        tupval = tup_sum, float(tup_sum/float(len(data)))
         tupval = tuple(tupval)
 
     return tupval
-        
-    
-
-print process_data([50, 100])
 
 
-    
+print process_data([1, 2, 3])
