@@ -13,8 +13,7 @@ def process_data(data):
         Total of the list, and it's average in floating point.
 
     Examples:
-        >>> 
-        (21, 3.5)
+        >>>(21, 3.5)
     """
     total_sum = 0
     count = 0
