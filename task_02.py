@@ -8,7 +8,6 @@ import data
 BALLETS = data.BALLETS
 
 del data.BALLETS[11]
-data.BALLETS[3] = 'Swan Lake'
+data.BALLETS[1] = ('Swan Lake'[:9])
 BALLETS.append('Herman Schmerman')
-NEWLIST = [('DonQuixote', 'Sylvia')]
-BALLETS.extend(NEWLIST)
+BALLETS.extend(['Don Quixote', 'Sylvia'])
