@@ -19,4 +19,6 @@ def flip_keys(to_flip):
         reverse = (num[::-1])
         to_flip[counter] = reverse
         counter += 1
-        return to_flip
+    return to_flip
+
+LIST = [(1, 2, 3), 'abc']
