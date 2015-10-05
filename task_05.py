@@ -4,7 +4,20 @@
 
 
 def flip_keys(to_flip):
-    """This function return the original list in a reverse order"""
+    """This function return the original list in a reverse order
+
+    Args:
+        Return list.
+
+    Return:
+        Return list with revered elements.
+
+    Example:
+        >>> LIST = [(1, 2, 3), 'abc']
+        >>> mylist = flip_keys(LIST)
+        >>> print mylist
+        [(3, 2, 1), 'cba']
+    """
 
     counter = 0
 
